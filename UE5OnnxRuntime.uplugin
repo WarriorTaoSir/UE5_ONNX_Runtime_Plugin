@@ -10,7 +10,7 @@
 	"DocsURL": "https://github.com/YourUsername/UE5-ONNX-Runtime-Plugin",
 	"MarketplaceURL": "",
 	"SupportURL": "https://github.com/YourUsername/UE5-ONNX-Runtime-Plugin/issues",
-	"EngineVersion": "5.4.0",
+	"EngineVersion": "5.6.1",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
