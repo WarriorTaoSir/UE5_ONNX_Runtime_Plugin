@@ -1,0 +1,38 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.0",
+	"FriendlyName": "UE5 ONNX Runtime Plugin",
+	"Description": "A comprehensive ONNX Runtime integration plugin for Unreal Engine 5. Supports generic ONNX model inference and includes specialized SAM2 image segmentation functionality. Built with extensible architecture for easy integration of custom ONNX models.",
+	"Category": "AI/Machine Learning",
+	"CreatedBy": "Claude Code Assistant",
+	"CreatedByURL": "https://claude.ai/code",
+	"DocsURL": "https://github.com/YourUsername/UE5-ONNX-Runtime-Plugin",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/YourUsername/UE5-ONNX-Runtime-Plugin/issues",
+	"EngineVersion": "5.4.0",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"SupportedTargetPlatforms": [
+		"Win64"
+	],
+	"Modules": [
+		{
+			"Name": "cloth",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "NNERuntimeORT",
+			"Enabled": true,
+			"Optional": true
+		}
+	]
+}

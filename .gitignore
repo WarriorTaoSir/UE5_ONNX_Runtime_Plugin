@@ -1,0 +1,83 @@
+# UE5 Plugin .gitignore
+
+# Compiled binaries
+Binaries/
+!Binaries/Win64/*.dll
+!Binaries/Win64/*.exe
+
+# Intermediate build files
+Intermediate/
+
+# Visual Studio files
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+
+# Build artifacts
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.lib
+*.patch_*
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Claude Code local settings
+.claude/
+
+# UE5 specific
+*.uasset
+*.umap
+DerivedDataCache/
+Saved/
+
+# Build artifacts and debug files  
+*.pdb
+*.idb
+*.ilk
+*.exp
+*.lib
+*.patch_*
+
+# ONNX Runtime binaries (keep essential DLLs only)
+ThirdParty/OnnxRuntime/lib/*.pdb
+ThirdParty/OnnxRuntime/lib/*.exp
+ThirdParty/OnnxRuntime/lib/*.ilk
+ThirdParty/OnnxRuntime/lib/*.lib
+
+# Exclude large optional CUDA/TensorRT providers (users can download separately)
+ThirdParty/OnnxRuntime/lib/onnxruntime_providers_cuda.dll
+ThirdParty/OnnxRuntime/lib/onnxruntime_providers_tensorrt.dll
+ThirdParty/OnnxRuntime/lib/*_providers_cuda.pdb
+ThirdParty/OnnxRuntime/lib/*_providers_tensorrt.pdb
+
+# Log files
+*.log
+
+# IDE settings
+.vscode/
+*.swp
+*.swo
+
+# Testing outputs
+TestResults/
+*.png
+*.jpg
+
+# Documentation build
+docs/_build/
