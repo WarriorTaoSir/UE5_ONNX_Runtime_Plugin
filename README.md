@@ -192,7 +192,7 @@ UE5OnnxRuntime/
 - **Sample Models** - Pre-configured test models
 
 ### Community Examples
-See [Examples Repository](https://github.com/YourUsername/UE5-ONNX-Examples) for:
+See [Examples Repository](https://github.com/WarriorTaoSir/UE5_ONNX_Runtime_Plugin) for:
 - Image Classification with ResNet
 - Object Detection with YOLO
 - Style Transfer models
@@ -219,7 +219,7 @@ See [Examples Repository](https://github.com/YourUsername/UE5-ONNX-Examples) for
 
 ### Getting Help
 - Check [Documentation](Docs/)
-- Browse [Issues](https://github.com/YourUsername/UE5-ONNX-Runtime-Plugin/issues)
+- Browse [Issues](https://github.com/WarriorTaoSir/UE5_ONNX_Runtime_Plugin/issues)
 - Join [Discord Community](#) 
 
 ## 🤝 Contributing
