@@ -34,5 +34,7 @@
 			"Enabled": true,
 			"Optional": true
 		}
-	]
+	],
+	"DocsURL": "https://github.com/YourRealUsername/UE5-ONNX-Runtime-Plugin/blob/main/Docs",
+    "SupportURL": "https://github.com/YourRealUsername/UE5-ONNX-Runtime-Plugin/issues"
 }
